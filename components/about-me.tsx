@@ -20,10 +20,10 @@ export function AboutMe() {
             <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center flex-shrink-0">
               <span className="text-2xl">👨‍💻</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">About Me</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">About Me</h2>
           </div>
           
-          <div className="text-lg md:text-xl text-white/90 leading-relaxed font-light">
+          <div className="text-lg md:text-xl text-gray-800 dark:text-white/90 leading-relaxed font-light">
             <TypewriterMultiline 
               lines={aboutLines}
               speed={50}

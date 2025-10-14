@@ -11,7 +11,7 @@ export function About() {
 
   return (
     <section id="about" className="mx-auto max-w-4xl px-4 py-10">
-      <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
+      <div className="space-y-4 text-pretty leading-relaxed dark:text-foreground text-gray-800 dark:text-foreground">
         <TypewriterMultiline 
           lines={aboutLines}
           speed={10}  // Faster typing speed
@@ -22,7 +22,7 @@ export function About() {
         <div className="opacity-0 hover:opacity-100 transition-opacity duration-300 absolute inset-0 pointer-events-none">
           <div className="space-y-4">
             {aboutLines.map((line, index) => (
-              <div key={index} className="text-pretty leading-relaxed text-muted-foreground">
+              <div key={index} className="text-pretty leading-relaxed text-gray-800 dark:text-foreground">
                 {line}
               </div>
             ))}
